@@ -11,5 +11,5 @@ LEX는 AI Service로 분류되고, "Conversational AI for Voice and Text Interfa
 - Seamlessly deploy across channels and scale!
 - Natively integrate with AWS services: Amazon Connect, Amazon Kendra, AWS Lambda
 
-![image](https://user-images.githubusercontent.com/52392004/218343904-386e6061-3882-4765-81a5-9ef7237628bd.png)
+<img src="https://user-images.githubusercontent.com/52392004/218343904-386e6061-3882-4765-81a5-9ef7237628bd.png" width="800">
 
