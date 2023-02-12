@@ -34,6 +34,9 @@ Natural conversations
 <img src="https://user-images.githubusercontent.com/52392004/218344298-4a8e518f-de4c-4c63-871d-7ac2c09ccf42.png" width="900">
 
 
+## 동작방식 
+
+![image](https://user-images.githubusercontent.com/52392004/218344560-98e27768-5ce8-450d-9deb-3f44540bf46e.png)
 
 
 
