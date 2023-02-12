@@ -34,9 +34,19 @@ Natural conversations
 <img src="https://user-images.githubusercontent.com/52392004/218344298-4a8e518f-de4c-4c63-871d-7ac2c09ccf42.png" width="900">
 
 
-## 동작방식 
+## 동작방식 - Book a hotel
+
+디바이스에서 동작은 아래와 같습니다.
 
 ![image](https://user-images.githubusercontent.com/52392004/218344560-98e27768-5ce8-450d-9deb-3f44540bf46e.png)
+
+이를 위해 내부에서 동작은 아래와 같습니다.
+
+![image](https://user-images.githubusercontent.com/52392004/218344659-25cfab14-4227-4b49-9762-9afe735bb23e.png)
+
+
+
+
 
 
 
