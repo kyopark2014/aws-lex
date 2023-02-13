@@ -2,6 +2,8 @@
 
 Amazon Lex 챗봇을 만드는 자습서에 있는 코드 입니다.
 
+BOT_ALIAS, USER_ID 입력
+
 ```java
 import { CognitoIdentityClient } from "@aws-sdk/client-cognito-identity";
 import { fromCognitoIdentityPool } from "@aws-sdk/credential-provider-cognito-identity";
