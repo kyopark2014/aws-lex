@@ -71,6 +71,9 @@ Lex / Lambda의 동작은 아래를 참조합니다. ([뱅킹 봇 구축 워크�
 
 ![image](https://user-images.githubusercontent.com/52392004/218353357-beb74bd3-585f-4b6f-93bf-2d00885021b9.png)
 
+## Bot Script
+
+[Bot Script](https://github.com/kyopark2014/aws-lex/blob/main/bot-script.md)는 코드 중심으로 정리합니다. 
 
 
 ## Reference
