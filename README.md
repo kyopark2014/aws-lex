@@ -52,7 +52,16 @@ Natural conversations
 
 - 구현
 
-상세한 구현 방법은 [Hello World 봇 만들기](https://github.com/aws-samples/aws-ai-ml-workshop-kr/blob/master/aiservices/lex-korean-workshop/HelloWorldBot.md)을 참조합니다.
+Visual Builder는 아래와 같습니다.
+
+![image](https://user-images.githubusercontent.com/52392004/218346023-97e2168a-bdd1-4e75-899e-ebe158dda373.png)
+
+
+상세한 구현 방법은 아래를 참조합니다.
+
+- [Amazon Lex Workshops](https://catalog.us-east-1.prod.workshops.aws/workshops/94f60d43-15b7-45f4-bbbc-17889ae64ea0/en-US)
+
+- [Hello World 봇 만들기](https://github.com/aws-samples/aws-ai-ml-workshop-kr/blob/master/aiservices/lex-korean-workshop/HelloWorldBot.md)
 
 ![image](https://user-images.githubusercontent.com/52392004/218345659-209c103b-bd53-4192-80b0-c4b5efbffbe0.png)
 
