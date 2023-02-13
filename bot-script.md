@@ -1,5 +1,68 @@
 # Bot Script
 
+## API
+
+아래는 [GetSession](https://docs.aws.amazon.com/lex/latest/dg/API_runtime_GetSession.html)의 예입니다. REST API로 request/response 형태로 채팅을 구현하고 있습니다. (IAM 인증후 아래 REST API를 사용하는것으로 보입니다.) 
+
+```java
+GET /bot/botName/alias/botAlias/user/userId/session/?checkpointLabelFilter=checkpointLabelFilter HTTP/1.1
+```
+
+이때의 응답의 예입니다. 
+
+```java
+HTTP/1.1 200
+Content-type: application/json
+
+{
+   "activeContexts": [ 
+      { 
+         "name": "string",
+         "parameters": { 
+            "string" : "string" 
+         },
+         "timeToLive": { 
+            "timeToLiveInSeconds": number,
+            "turnsToLive": number
+         }
+      }
+   ],
+   "dialogAction": { 
+      "fulfillmentState": "string",
+      "intentName": "string",
+      "message": "string",
+      "messageFormat": "string",
+      "slots": { 
+         "string" : "string" 
+      },
+      "slotToElicit": "string",
+      "type": "string"
+   },
+   "recentIntentSummaryView": [ 
+      { 
+         "checkpointLabel": "string",
+         "confirmationStatus": "string",
+         "dialogActionType": "string",
+         "fulfillmentState": "string",
+         "intentName": "string",
+         "slots": { 
+            "string" : "string" 
+         },
+         "slotToElicit": "string"
+      }
+   ],
+   "sessionAttributes": { 
+      "string" : "string" 
+   },
+   "sessionId": "string"
+}
+```
+
+
+
+
+## java script
+
 Amazon Lex 챗봇을 만드는 자습서에 있는 코드 입니다.
 
 - 메시지 발신 
