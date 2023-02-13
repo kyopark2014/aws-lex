@@ -78,3 +78,5 @@ Visual Builder는 아래와 같습니다.
 [Amazon LEX](https://github.com/rashimparmar/AWS-LEX)
 
 [Amazon Lex 한국어 챗봇 빌드 워크숍](https://github.com/aws-samples/aws-ai-ml-workshop-kr/blob/master/aiservices/lex-korean-workshop/README.md)
+
+[What is Amazon Lex V2?](https://docs.aws.amazon.com/lexv2/latest/dg/what-is.html)
