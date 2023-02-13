@@ -60,6 +60,8 @@ Natural conversations
 
 ## Reference
 
+[Amazon Lex Workshops](https://catalog.us-east-1.prod.workshops.aws/workshops/94f60d43-15b7-45f4-bbbc-17889ae64ea0/en-US)
+
 [AWS Samples - Sample Amazon Lex Web Interface](https://github.com/aws-samples/aws-lex-web-ui)
 
 [Amazon LEX](https://github.com/rashimparmar/AWS-LEX)
