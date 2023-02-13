@@ -15,7 +15,8 @@ try {
 }
 ```
 
-BOT_ALIAS, USER_ID 입력
+BOT_ALIAS, USER_ID 입력: [관련 Github](https://github.com/awsdocs/aws-doc-sdk-examples/tree/main/javascriptv3/example_code/cross-services/lex-bot/src/libs)
+
 
 ```java
 import { CognitoIdentityClient } from "@aws-sdk/client-cognito-identity";
