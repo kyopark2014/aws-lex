@@ -153,4 +153,9 @@ window.createResponse = createResponse;
 
 [브라우저 스크립트 생성](https://docs.aws.amazon.com/ko_kr/sdk-for-javascript/v3/developer-guide/lex-bot-example-script.html)
 
+[Managing Sessions With the Amazon Lex API](https://docs.aws.amazon.com/lex/latest/dg/how-session-api.html)
+
 [PostContent](https://docs.aws.amazon.com/lex/latest/dg/API_runtime_PostContent.html)
+
+[PostText](https://docs.aws.amazon.com/lex/latest/dg/API_runtime_PostText.html)
+
