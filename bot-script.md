@@ -152,3 +152,5 @@ window.createResponse = createResponse;
 ## Reference
 
 [브라우저 스크립트 생성](https://docs.aws.amazon.com/ko_kr/sdk-for-javascript/v3/developer-guide/lex-bot-example-script.html)
+
+[PostContent](https://docs.aws.amazon.com/lex/latest/dg/API_runtime_PostContent.html)
