@@ -56,3 +56,7 @@ Natural conversations
 ## Reference
 
 [AWS Samples - Sample Amazon Lex Web Interface](https://github.com/aws-samples/aws-lex-web-ui)
+
+[Amazon LEX](https://github.com/rashimparmar/AWS-LEX)
+
+[Amazon Lex 한국어 챗봇 빌드 워크숍](https://github.com/aws-samples/aws-ai-ml-workshop-kr/blob/master/aiservices/lex-korean-workshop/README.md)
