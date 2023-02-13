@@ -43,11 +43,12 @@ Natural conversations
 
 디바이스에서 동작은 아래와 같습니다.
 
-![image](https://user-images.githubusercontent.com/52392004/218344560-98e27768-5ce8-450d-9deb-3f44540bf46e.png)
+<img src="https://user-images.githubusercontent.com/52392004/218344560-98e27768-5ce8-450d-9deb-3f44540bf46e.png" width="800">
+
 
 이를 위해 내부에서 동작은 아래와 같습니다.
 
-![image](https://user-images.githubusercontent.com/52392004/218344659-25cfab14-4227-4b49-9762-9afe735bb23e.png)
+<img src="https://user-images.githubusercontent.com/52392004/218344659-25cfab14-4227-4b49-9762-9afe735bb23e.png" width="800">
 
 - 구현
 
