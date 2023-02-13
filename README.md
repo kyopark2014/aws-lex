@@ -75,6 +75,15 @@ Lex / Lambda의 동작은 아래를 참조합니다. ([뱅킹 봇 구축 워크�
 
 [Bot Script](https://github.com/kyopark2014/aws-lex/blob/main/bot-script.md)는 코드 중심으로 정리합니다. 
 
+## 구성
+
+LEX 앞단에 별도의 서비스가 있는 구조입니다. 
+
+[Integrating Amazon Connect and Amazon Lex with Third-party Systems](https://aws.amazon.com/ko/blogs/architecture/integrating-amazon-connect-and-amazon-lex-with-third-party-systems/)
+
+
+![image](https://user-images.githubusercontent.com/52392004/218363357-87e8b9a4-11b6-4247-9d1e-8ae91d5fc296.png)
+
 
 ## Reference
 
