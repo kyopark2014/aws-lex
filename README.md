@@ -49,13 +49,12 @@ Natural conversations
 
 ![image](https://user-images.githubusercontent.com/52392004/218344659-25cfab14-4227-4b49-9762-9afe735bb23e.png)
 
-- Add utterances
+- 구현
 
-![image](https://user-images.githubusercontent.com/52392004/218344826-995407ac-006a-4e8d-9601-da943be2a9c1.png)
+상세한 구현 방법은 [Hello World 봇 만들기](https://github.com/aws-samples/aws-ai-ml-workshop-kr/blob/master/aiservices/lex-korean-workshop/HelloWorldBot.md)을 참조합니다.
 
-- Add slot values
+![image](https://user-images.githubusercontent.com/52392004/218345659-209c103b-bd53-4192-80b0-c4b5efbffbe0.png)
 
-![image](https://user-images.githubusercontent.com/52392004/218344845-da6b908f-c61f-4c11-8673-c739320ff8f6.png)
 
 
 ## Reference
