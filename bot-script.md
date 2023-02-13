@@ -2,6 +2,19 @@
 
 Amazon Lex 챗봇을 만드는 자습서에 있는 코드 입니다.
 
+- 메시지 발신 
+
+```java
+try {
+  const data = await lexClient.send(new PostTextCommand(lexParams));
+  console.log("Success. Response is: ", data.message);
+  var msg = data.message;
+  showResponse(msg);
+} catch (err) {
+  console.log("Error responding to message. ", err);
+}
+```
+
 BOT_ALIAS, USER_ID 입력
 
 ```java
