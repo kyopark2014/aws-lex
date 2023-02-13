@@ -63,6 +63,8 @@ Visual Builder는 아래와 같습니다.
 
 - [Hello World 봇 만들기](https://github.com/aws-samples/aws-ai-ml-workshop-kr/blob/master/aiservices/lex-korean-workshop/HelloWorldBot.md)
 
+기본적은 개발 프로세스는 아래와 같습니다. 
+
 ![image](https://user-images.githubusercontent.com/52392004/218345659-209c103b-bd53-4192-80b0-c4b5efbffbe0.png)
 
 
