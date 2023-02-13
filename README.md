@@ -89,3 +89,5 @@ Lex / Lambda의 동작은 아래를 참조합니다. ([뱅킹 봇 구축 워크�
 [What is Amazon Lex V2?](https://docs.aws.amazon.com/lexv2/latest/dg/what-is.html)
 
 [브라우저 스크립트 생성](https://docs.aws.amazon.com/ko_kr/sdk-for-javascript/v3/developer-guide/lex-bot-example-script.html)
+
+[Integrating Amazon Connect and Amazon Lex with Third-party Systems](https://aws.amazon.com/ko/blogs/architecture/integrating-amazon-connect-and-amazon-lex-with-third-party-systems/)
