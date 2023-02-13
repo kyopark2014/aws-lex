@@ -53,7 +53,6 @@ Natural conversations
 ![image](https://user-images.githubusercontent.com/52392004/218344845-da6b908f-c61f-4c11-8673-c739320ff8f6.png)
 
 
+## Reference
 
-![image](https://user-images.githubusercontent.com/52392004/218345024-656bed62-7466-41ae-8598-92f9fe07171f.png)
-
-
+[AWS Samples - Sample Amazon Lex Web Interface](https://github.com/aws-samples/aws-lex-web-ui)
