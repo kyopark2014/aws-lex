@@ -67,7 +67,7 @@ Visual Builder는 아래와 같습니다.
 
 ![image](https://user-images.githubusercontent.com/52392004/218345659-209c103b-bd53-4192-80b0-c4b5efbffbe0.png)
 
-Lex / Lambda의 동작은 아래를 참조합니다. ([뱅킹 봇 구축 워크숍](https://github.com/aws-samples/aws-ai-ml-workshop-kr/blob/master/aiservices/lex-korean-workshop/BankingBot.md)
+Lex / Lambda의 동작은 아래를 참조합니다. ([뱅킹 봇 구축 워크숍](https://github.com/aws-samples/aws-ai-ml-workshop-kr/blob/master/aiservices/lex-korean-workshop/BankingBot.md))
 
 ![image](https://user-images.githubusercontent.com/52392004/218352933-fb448f20-a6f4-4c2d-8e45-1c19bd8617d0.png)
 
