@@ -71,7 +71,6 @@ Lex / Lambda의 동작은 아래를 참조합니다. ([뱅킹 봇 구축 워크�
 
 ![image](https://user-images.githubusercontent.com/52392004/218353357-beb74bd3-585f-4b6f-93bf-2d00885021b9.png)
 
-![image](https://user-images.githubusercontent.com/52392004/218352933-fb448f20-a6f4-4c2d-8e45-1c19bd8617d0.png)
 
 
 ## Reference
