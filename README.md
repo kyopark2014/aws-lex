@@ -94,6 +94,22 @@ LEX 앞단에 별도의 서비스가 있는 구조입니다.
 ![image](https://user-images.githubusercontent.com/52392004/218363766-8ec0f92b-7b07-4b4b-bf40-d5a9f2d52b71.png)
 
 
+## RecognizeText
+
+[RecognizeText](https://docs.aws.amazon.com/lexv2/latest/APIReference/API_runtime_RecognizeText.html)
+
+[GetSession](https://docs.aws.amazon.com/lex/latest/dg/API_runtime_GetSession.html)
+
+- botAliasId: The alias identifier in use for the bot that processes the request, Required: Yes
+
+- botId: The identifier of the bot that processes the request, Length Constraints: Fixed length of 10, Pattern: ^[0-9a-zA-Z]+$
+
+- localeId: The locale where the session is in use, Length Constraints: Minimum length of 1.
+
+- sessionId: The identifier of the user session that is having the conversation, Length Constraints: Minimum length of 2. Maximum length of 100, Pattern: [0-9a-zA-Z._:-]+
+
+
+
 ## Reference
 
 [Amazon Lex Workshops](https://catalog.us-east-1.prod.workshops.aws/workshops/94f60d43-15b7-45f4-bbbc-17889ae64ea0/en-US)
