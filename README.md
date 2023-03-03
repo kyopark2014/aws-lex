@@ -40,23 +40,6 @@ Natural conversations
 
 [integrations](https://github.com/kyopark2014/aws-lex/blob/main/integrations.md)와 같이 다른 메신저와 연동할 수 있습니다.
 
-## Bot Script
-
-[Bot Script](https://github.com/kyopark2014/aws-lex/blob/main/bot-script.md)는 코드 중심으로 정리합니다. 
-
-## 구성
-
-LEX 앞단에 별도의 서비스가 있는 구조입니다. 
-
-[Integrating Amazon Connect and Amazon Lex with Third-party Systems](https://aws.amazon.com/ko/blogs/architecture/integrating-amazon-connect-and-amazon-lex-with-third-party-systems/)
-
-
-<img src="https://user-images.githubusercontent.com/52392004/218363357-87e8b9a4-11b6-4247-9d1e-8ae91d5fc296.png" width="800">
-
-
-[This is my architecture: Chatbot for GlassOn with Amazon Lex](https://towardsaws.com/this-is-my-architecture-chatbot-for-glasson-with-amazon-lex-e8ae521e0a14)에서는 앞단에 API Gateway를 두고 있습니다.
-
-![image](https://user-images.githubusercontent.com/52392004/218363766-8ec0f92b-7b07-4b4b-bf40-d5a9f2d52b71.png)
 
 
 ## RecognizeText
@@ -72,6 +55,12 @@ LEX 앞단에 별도의 서비스가 있는 구조입니다.
 - localeId: The locale where the session is in use, Length Constraints: Minimum length of 1.
 
 - sessionId: The identifier of the user session that is having the conversation, Length Constraints: Minimum length of 2. Maximum length of 100, Pattern: [0-9a-zA-Z._:-]+
+
+
+
+## Bot 동작
+
+[Bot Script](https://github.com/kyopark2014/aws-lex/blob/main/bot-script.md)는 코드 중심으로 정리합니다. 
 
 
 
