@@ -16,25 +16,7 @@
 - 슬롯(Slot) - 봇이 작업을 수행하기 위해 필요한 데이터 항목입니다. 예를 들어 항공편 예약 의도의 경우 출발지 공항, 도착지 공항, 비행 날짜, 비행 시간 및 예약 클래스에 대한 슬롯이 필요할 수 있습니다. Lex에는 많은 내장 슬롯 유형이 있지만 사용 사례에 맞게 사용자 정의 슬롯 유형을 자유롭게 생성할 수 있습니다.
 - 이행(Fulfillment) - 종료 메시지와 사용자에 대한 몇 가지 추가 정보가 있는 봇의 최종 출력 메세지 입니다. 예를 들어 항공편 예약의 경우 이행에는 사용자가 예약한 경로 및 항공편 번호에 대한 간략한 요약과 함께 항공편이 예약되었음을 확인할 수 있는 메시지가 출력됩니다.
 
-AWS에서 제공하는 Lex는 아래와 같은 가치를 줄수 있다록 합니다.
 
-- High-quality text and speech natural language understanding
-- Easy to use—fully managed AI service on AWS platform
-- Seamlessly deploy across channels and scale!
-- Natively integrate with AWS services: Amazon Connect, Amazon Kendra, AWS Lambda
-
-Key Feature는 아래와 같습니다.
-
-- Natural conversations: High quality ASR and NLU, context management, multi‑turn dialog
-- Builder productivity tools: One-click deployment, Bot lifecycle management tools, V2 console and API, streaming API
-- AWS Service integrations: Natively integrate with Amazon Polly, Amazon Kendra, AWS Lambda 
-- Contact center integrations: Integrations with Amazon Connect, Genesys, 8x8
-
-Natural conversations 
-- High quality speech recognition: Accurate automatic speech recognition that quickly transcribes speech to text in multiple languages. Supports 8kHz telephony audio.
-- Multi-language natural language understanding: Based on the same proven technology that powers Alexa, Lex analyzes what users are saying to identify the request/intent and how to answer the request across multiple languages.
-- Multi-turn dialog: Amazon Lex gives you an easy way to build multi-turn conversation and manage context natively without the need for custom code. 
-- Fulfillment: Amazon Lex applies business logic to identify how to fulfill user requests and which systems to work with to retrieve information or complete a task.
 
 ## AWS integrations
 
