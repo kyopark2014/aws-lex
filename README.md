@@ -148,3 +148,5 @@ LEX 앞단에 별도의 서비스가 있는 구조입니다.
 [Deploying an Amazon Lex Bot on a Messaging Platform](https://docs.aws.amazon.com/lex/latest/dg/example1.html)
 
 [Amazon Lex V2의 Dialog Action을 통해 챗봇에 다양한 비지니스 로직 구현하기](https://aws.amazon.com/ko/blogs/korea/amazon-lex-dialog-action/)
+
+[AmazonLexRuntimeV2Client](https://docs.aws.amazon.com/sdkfornet/v3/apidocs/items/LexRuntimeV2/TLexRuntimeV2Client.html)
