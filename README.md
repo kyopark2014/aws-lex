@@ -139,6 +139,8 @@ LEX 앞단에 별도의 서비스가 있는 구조입니다.
 
 [Create the browser script](https://docs.aws.amazon.com/sdk-for-javascript/v3/developer-guide/lex-bot-example-script.html)
 
+[Amazon Lex Runtime V2](https://docs.aws.amazon.com/lexv2/latest/APIReference/API_Operations_Amazon_Lex_Runtime_V2.html)
+
 [Amazon Lex V2 API Reference](https://docs.aws.amazon.com/lexv2/latest/APIReference/welcome.html)
 
 [Amazon Lex Introduces an Enhanced Console Experience and New V2 APIs](https://aws.amazon.com/ko/blogs/aws/amazon-lex-enhanced-console-experience/)
