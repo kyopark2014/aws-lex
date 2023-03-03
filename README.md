@@ -17,18 +17,14 @@
 - 이행(Fulfillment) - 종료 메시지와 사용자에 대한 몇 가지 추가 정보가 있는 봇의 최종 출력 메세지 입니다. 예를 들어 항공편 예약의 경우 이행에는 사용자가 예약한 경로 및 항공편 번호에 대한 간략한 요약과 함께 항공편이 예약되었음을 확인할 수 있는 메시지가 출력됩니다.
 
 
+## Operation
 
-## AWS integrations
+### 메시지 전송
 
-[integrations](https://github.com/kyopark2014/aws-lex/blob/main/integrations.md)와 같이 다른 메신저와 연동할 수 있습니다.
-
-
-
-## RecognizeText
+사용자의 입력은 RecognizeText을 통해 Lex V2로 전송합니다.
 
 [RecognizeText](https://docs.aws.amazon.com/lexv2/latest/APIReference/API_runtime_RecognizeText.html)
 
-[GetSession](https://docs.aws.amazon.com/lex/latest/dg/API_runtime_GetSession.html)
 
 - botAliasId: The alias identifier in use for the bot that processes the request, Required: Yes
 
@@ -39,10 +35,16 @@
 - sessionId: The identifier of the user session that is having the conversation, Length Constraints: Minimum length of 2. Maximum length of 100, Pattern: [0-9a-zA-Z._:-]+
 
 
+### AWS integrations
 
-## Bot 동작
+[integrations](https://github.com/kyopark2014/aws-lex/blob/main/integrations.md)와 같이 다른 메신저와 연동할 수 있습니다. 
 
-[Bot Script](https://github.com/kyopark2014/aws-lex/blob/main/bot-script.md)는 코드 중심으로 정리합니다. 
+
+### Bot 동작
+
+[GetSession](https://docs.aws.amazon.com/lex/latest/dg/API_runtime_GetSession.html)
+
+[Bot Script](https://github.com/kyopark2014/aws-lex/blob/main/bot-script.md)관련 상세 동작에 대해 설명합니다. (작성중)
 
 
 
