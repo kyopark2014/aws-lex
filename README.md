@@ -36,12 +36,9 @@ Natural conversations
 - Multi-turn dialog: Amazon Lex gives you an easy way to build multi-turn conversation and manage context natively without the need for custom code. 
 - Fulfillment: Amazon Lex applies business logic to identify how to fulfill user requests and which systems to work with to retrieve information or complete a task.
 
-## AWS integrations: reference architecture
+## AWS integrations
 
-기본적인 Architecture는 아래와 같습니다.
-
-<img src="https://user-images.githubusercontent.com/52392004/218344298-4a8e518f-de4c-4c63-871d-7ac2c09ccf42.png" width="900">
-
+[integrations](https://github.com/kyopark2014/aws-lex/blob/main/integrations.md)와 같이 다른 메신저와 연동할 수 있습니다.
 
 ## 동작방식 - Book a hotel
 
