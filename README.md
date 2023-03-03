@@ -122,3 +122,5 @@ LEX 앞단에 별도의 서비스가 있는 구조입니다.
 [Amazon Lex V2 API Reference](https://docs.aws.amazon.com/lexv2/latest/APIReference/welcome.html)
 
 [Amazon Lex Introduces an Enhanced Console Experience and New V2 APIs](https://aws.amazon.com/ko/blogs/aws/amazon-lex-enhanced-console-experience/)
+
+[Deploying an Amazon Lex Bot on a Messaging Platform](https://docs.aws.amazon.com/lex/latest/dg/example1.html)
