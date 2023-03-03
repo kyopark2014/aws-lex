@@ -117,3 +117,4 @@ LEX 앞단에 별도의 서비스가 있는 구조입니다.
 
 [Create the browser script](https://docs.aws.amazon.com/sdk-for-javascript/v3/developer-guide/lex-bot-example-script.html)
 
+[Amazon Lex V2 API Reference](https://docs.aws.amazon.com/lexv2/latest/APIReference/welcome.html)
