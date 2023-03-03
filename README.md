@@ -94,9 +94,8 @@ LEX 앞단에 별도의 서비스가 있는 구조입니다.
 
 [Amazon Lex Workshops](https://catalog.us-east-1.prod.workshops.aws/workshops/94f60d43-15b7-45f4-bbbc-17889ae64ea0/en-US)
 
-[AWS Docs - Sample Amazon Lex Web Interface](https://github.com/aws-samples/aws-lex-web-ui)
+[AWS Samples - Sample Amazon Lex Web Interface](https://github.com/aws-samples/aws-lex-web-ui)
 
-[Create the browser script](https://docs.aws.amazon.com/sdk-for-javascript/v3/developer-guide/lex-bot-example-script.html)
 
 
 
@@ -114,4 +113,7 @@ LEX 앞단에 별도의 서비스가 있는 구조입니다.
 
 [Lex Runtime Service Client - AWS SDK for JavaScript v3](https://docs.aws.amazon.com/AWSJavaScriptSDK/v3/latest/clients/client-lex-runtime-service/index.html)
 
-[AWS Sample - how to build and deploy an Amazon Lex chatbot](https://github.com/awsdocs/aws-doc-sdk-examples/blob/main/javascriptv3/example_code/cross-services/lex-bot/src/index.js)
+[AWS Docs - how to build and deploy an Amazon Lex chatbot](https://github.com/awsdocs/aws-doc-sdk-examples/blob/main/javascriptv3/example_code/cross-services/lex-bot/src/index.js)
+
+[Create the browser script](https://docs.aws.amazon.com/sdk-for-javascript/v3/developer-guide/lex-bot-example-script.html)
+
