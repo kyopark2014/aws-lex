@@ -2,9 +2,11 @@
 
 ## Basic
 
-AWS Lex는 애플리케이션에 대화형 인터페이스를 구축하는 서비스입니다.
+- AWS Lex는 애플리케이션에 대화형 인터페이스를 구축하는 서비스입니다.
 
-AWS Lex는 AI Service로 분류되고, "Conversational AI for Voice and Text Interfaces"로 정의 됩니다. 음성과 텍스트 인터페이스로 대화하는 AI로 번역될것 같습니다.
+- Amazon Lex는 대화형 인터페이스를 애플리케이션에 설계, 구축, 테스트, 배포하기 위해 고급 자연어 모델을 사용하는 완전관리형 인공 지능(AI) 서비스입니다. Amazon Lex 챗봇은 연속적인 대화를 주고받을 수 있는 기능을 제공합니다. 의도가 파악되면 해당 의도를 이행하는 데 필요한 정보가 사용자에게 표시됩니다. 
+
+- AWS Lex는 AI Service로 분류되고, "Conversational AI for Voice and Text Interfaces"로 정의 됩니다. 음성과 텍스트 인터페이스로 대화하는 AI로 번역될것 같습니다.
 
 <img src="https://user-images.githubusercontent.com/52392004/218343904-386e6061-3882-4765-81a5-9ef7237628bd.png" width="800">
 
