@@ -107,3 +107,5 @@ LEX 앞단에 별도의 서비스가 있는 구조입니다.
 [Integrating Amazon Connect and Amazon Lex with Third-party Systems](https://aws.amazon.com/ko/blogs/architecture/integrating-amazon-connect-and-amazon-lex-with-third-party-systems/)
 
 [Integrate Your Amazon Lex Bot with Any Messaging Service](https://aws.amazon.com/ko/blogs/machine-learning/integrate-your-amazon-lex-bot-with-any-messaging-service/)
+
+[Lex Runtime Service Client - AWS SDK for JavaScript v3](https://docs.aws.amazon.com/AWSJavaScriptSDK/v3/latest/clients/client-lex-runtime-service/index.html)
