@@ -115,7 +115,9 @@ LEX 앞단에 별도의 서비스가 있는 구조입니다.
 
 [Integrate Your Amazon Lex Bot with Any Messaging Service](https://aws.amazon.com/ko/blogs/machine-learning/integrate-your-amazon-lex-bot-with-any-messaging-service/)
 
-[Lex Runtime Service Client - AWS SDK for JavaScript v3](https://docs.aws.amazon.com/AWSJavaScriptSDK/v3/latest/clients/client-lex-runtime-service/index.html)
+[Lex Runtime Service Client - AWS SDK for JavaScript v3](https://docs.aws.amazon.com/AWSJavaScriptSDK/v3/latest/clients/client-lex-runtime-service/index.html) <--- V1, 한국은 Endpoint 미지원
+
+[Lex Runtime V2 Client - AWS SDK for JavaScript v3](https://docs.aws.amazon.com/AWSJavaScriptSDK/v3/latest/clients/client-lex-runtime-v2/index.html)
 
 [AWS Docs - how to build and deploy an Amazon Lex chatbot](https://github.com/awsdocs/aws-doc-sdk-examples/blob/main/javascriptv3/example_code/cross-services/lex-bot/src/index.js)
 
