@@ -5,12 +5,14 @@ export const handler = async (event) => {
     console.log('## ENVIRONMENT VARIABLES: ' + JSON.stringify(process.env));
     console.log('## EVENT: ' + JSON.stringify(event));
 
+    const text = event.text;
+
     var lexParams = {        
-        botAliasId: "TSTALIASID", // botAliasId: process.envbotAliasId.
-        botId: "OLL2GYMJSN",
-        localeId: "en_US",
-        text: "I want to make a payment",
-        sessionId: "mysession-01",
+        botAliasId: process.env.botAliasId,
+        botId: process.env.botId,
+        localeId: process.env.localeId,
+        text: text,
+        sessionId: process.env.sessionId,
     };
     
     const lexClient = new LexRuntimeV2Client();
