@@ -62,7 +62,7 @@ export class CdkLexStack extends cdk.Stack {
       description: 'The domain name of the Distribution',
     });
 
-    // Lambda for stable diffusion 
+    // Lambda for lex
     const lambdaLex = new lambda.Function(this, 'lambda-lex', {
       description: 'lambda for chat',
       functionName: 'lambda-lex',
