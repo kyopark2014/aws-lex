@@ -19,11 +19,9 @@ Lex는 아래와 같이 Intent, Utterance, Prompt, Slot, Fulfillment를 가지�
 
 ## LEX API
 
-사용자의 입력은 RecognizeText을 통해 Lex V2로 전송합니다.
+사용자의 입력은 [RecognizeText](https://docs.aws.amazon.com/lexv2/latest/APIReference/API_runtime_RecognizeText.html)을 통해 Lex V2로 전송합니다.
 
-[RecognizeText](https://docs.aws.amazon.com/lexv2/latest/APIReference/API_runtime_RecognizeText.html)
-
-이때 필요한 매개변수는 아래와 같습니다. 
+여기에 필요한 매개변수는 아래와 같습니다. 
 
 - botId: The identifier of the bot that processes the request, Length Constraints: Fixed length of 10, Pattern: ^[0-9a-zA-Z]+$
 
