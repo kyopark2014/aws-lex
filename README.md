@@ -1,12 +1,13 @@
 # AWS Lex
 
+Amazon Lex는 애플리케이션에 대화형 인터페이스를 구축하는 서비스로서, 애플리케이션에서 대화형 인터페이스를 설계, 구축, 테스트, 배포하기 위해 고급 자연어 모델을 사용하는 완전관리형 인공 지능(AI) 서비스입니다. Amazon Lex 챗봇은 연속적인 대화를 주고받을 수 있는 기능을 제공하고, 파악되면 해당 의도를 이행하는 데 필요한 정보가 사용자에게 표시됩니다. 아래는 여기서 구현하는 Lex를 이용한 챗봇의 Architecture입니다.
+
+![image](https://user-images.githubusercontent.com/52392004/223068742-b90a6907-4313-4142-b343-22915621023f.png)
+
+
 ## Basic
 
-- AWS Lex는 애플리케이션에 대화형 인터페이스를 구축하는 서비스입니다.
-
-- Amazon Lex는 대화형 인터페이스를 애플리케이션에 설계, 구축, 테스트, 배포하기 위해 고급 자연어 모델을 사용하는 완전관리형 인공 지능(AI) 서비스입니다. Amazon Lex 챗봇은 연속적인 대화를 주고받을 수 있는 기능을 제공합니다. 의도가 파악되면 해당 의도를 이행하는 데 필요한 정보가 사용자에게 표시됩니다. 
-
-- AWS Lex는 AI Service로 분류되고, "Conversational AI for Voice and Text Interfaces"로 정의 됩니다. 음성과 텍스트 인터페이스로 대화하는 AI로 번역될것 같습니다.
+Lex는 아래와 같이 Intent, Utterance, Prompt, Slot, Fulfillment를 가지고 있습니다. 
 
 <img src="https://user-images.githubusercontent.com/52392004/218343904-386e6061-3882-4765-81a5-9ef7237628bd.png" width="800">
 
@@ -16,10 +17,7 @@
 - 슬롯(Slot) - 봇이 작업을 수행하기 위해 필요한 데이터 항목입니다. 예를 들어 항공편 예약 의도의 경우 출발지 공항, 도착지 공항, 비행 날짜, 비행 시간 및 예약 클래스에 대한 슬롯이 필요할 수 있습니다. Lex에는 많은 내장 슬롯 유형이 있지만 사용 사례에 맞게 사용자 정의 슬롯 유형을 자유롭게 생성할 수 있습니다.
 - 이행(Fulfillment) - 종료 메시지와 사용자에 대한 몇 가지 추가 정보가 있는 봇의 최종 출력 메세지 입니다. 예를 들어 항공편 예약의 경우 이행에는 사용자가 예약한 경로 및 항공편 번호에 대한 간략한 요약과 함께 항공편이 예약되었음을 확인할 수 있는 메시지가 출력됩니다.
 
-
-## Operation
-
-### LEX API
+## LEX API
 
 사용자의 입력은 RecognizeText을 통해 Lex V2로 전송합니다.
 
@@ -35,7 +33,7 @@
 
 - sessionId: The identifier of the user session that is having the conversation, Length Constraints: Minimum length of 2. Maximum length of 100, Pattern: [0-9a-zA-Z._:-]+
 
-### Deployment
+## Deployment
 
 [Hello World 봇 만들기](https://github.com/aws-samples/aws-ai-ml-workshop-kr/blob/master/aiservices/lex-korean-workshop/HelloWorldBot.md)에 따라 "HelloWorldBot"을 생성합니다.
 
