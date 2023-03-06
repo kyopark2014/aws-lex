@@ -49,7 +49,19 @@
 
 ## Deployment
 
-[Hello World 봇 만들기]에 따라 "HelloWorldBot"을 생성합니다.
+[Hello World 봇 만들기](https://github.com/aws-samples/aws-ai-ml-workshop-kr/blob/master/aiservices/lex-korean-workshop/HelloWorldBot.md)에 따라 "HelloWorldBot"을 생성합니다.
+
+[Bot Console](https://ap-northeast-2.console.aws.amazon.com/lexv2/home?region=ap-northeast-2#bots)에 접속해서 "HelloWorldBot"을 선택합니다. 아래와 같이 botId는 "BSZQXD0ABN"임을 알수 있습니다. 
+
+![noname](https://user-images.githubusercontent.com/52392004/223062399-20861e92-0afb-43b6-bb33-8b10c8f2cee8.png)
+
+"HelloWorldBot"의 [Aliases]를 선택하면 아래와 같이 Aliases를 알 수 있습니다. 여기서는 "TestBotAlias"를 선택합니다. 
+
+![noname](https://user-images.githubusercontent.com/52392004/223062755-28f9f6dc-0e25-4117-9c75-4cea2221e9d5.png)
+
+아래와 같이 botAliasId가 "TSTALIASID"임을 알 수 있습니다.
+
+![noname](https://user-images.githubusercontent.com/52392004/223063139-8b3c78df-fdf0-45b3-ba24-55b1ef33b8c4.png)
 
 
 
