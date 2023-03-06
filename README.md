@@ -54,7 +54,7 @@
 
 [AWS Samples - Sample Amazon Lex Web Interface](https://github.com/aws-samples/aws-lex-web-ui)
 
-
+[Languages and locales supported by Amazon Lex V2](https://docs.aws.amazon.com/lexv2/latest/dg/how-languages.html)
 
 
 [Amazon LEX](https://github.com/rashimparmar/AWS-LEX)
