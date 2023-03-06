@@ -64,6 +64,28 @@
 ![noname](https://user-images.githubusercontent.com/52392004/223063139-8b3c78df-fdf0-45b3-ba24-55b1ef33b8c4.png)
 
 
+"cdk-lex/lib/cdk-lex-stack.ts"에서 아래와 같이 botId, botAliasId, localeId를 업데이트 합니다. 
+
+![noname](https://user-images.githubusercontent.com/52392004/223064111-7bd6f9ae-745b-45df-9c1b-7d38d7351bec.png)
+
+이후 아래처럼 전체 인프라를 설치합니다. UpdateCommend는 "aws s3 cp ../html/lex.js s3://cdklexstack-lexstorage2a9aa7fd-3slmsn6zfwpq"이고, WebUrl은 "https://d3a96z9m2o87mc.cloudfront.net/lex.html"이며, distributionDomainName은 "d3a96z9m2o87mc.cloudfront.net" 입니다. 
+
+```java
+cdk deploy"
+```
+
+인프라가 모두 설치되면 아래와 같은 결과를 얻습니다. 여기서, 
+
+![noname](https://user-images.githubusercontent.com/52392004/223064980-59c3ea1b-3681-45d6-9a13-8631caf6f3d4.png)
+
+
+
+"html/lex.js"에서 아래의 도메인 정보를 distributionDomainName을 이용하여 업데이트하고, UpdateCommend를 이용하여 S3로 업로드합니다.
+
+![noname](https://user-images.githubusercontent.com/52392004/223065821-c3cb3b3d-b8ad-4cfa-a9a5-ac1d9065398e.png)
+
+이후 브라우저에서 WebUrl을 이용해 접속합니다. 
+
 
 ## Reference
 
