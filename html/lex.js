@@ -89,9 +89,7 @@ function onSend(e) {
     else {
         console.log("msg: ", "empty!");
     }    
-    message.value = "";
-
-    chatPanel.scrollTop = chatPanel.scrollHeight;  // scroll needs to move bottom
+    message.value = "";    
 }
 
 function uuidv4() {
@@ -118,6 +116,8 @@ function addSentMessage(text) {
 
     msglist[index].innerHTML = 
         `<div class="chat-sender chat-sender--right"><h1>${timestr}</h1>${text}&nbsp;<h2 id="status${index}"></h2></div>`;   
+    
+    chatPanel.scrollTop = chatPanel.scrollHeight;  // scroll needs to move bottom
 
     sendRequest(text);    
 }       
@@ -131,6 +131,8 @@ function addReceivedMessage(msg) {
 
     // msglist[index].innerHTML =  `<div class="chat-receiver chat-receiver--left"><h1>${sender}</h1><h2>${timestr}</h2>${msg}&nbsp;</div>`;     
     msglist[index].innerHTML = `<div class="chat-receiver chat-receiver--left"><h1>${sender}</h1>${msg}&nbsp;</div>`;  
+    
+    chatPanel.scrollTop = chatPanel.scrollHeight;  // scroll needs to move bottom
 }
 
 function addNotifyMessage(msg) {
