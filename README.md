@@ -47,6 +47,10 @@
 
 [Bot Script](https://github.com/kyopark2014/aws-lex/blob/main/bot-script.md)관련 상세 동작에 대해 설명합니다. (작성중)
 
+## Deployment
+
+[Hello World 봇 만들기]에 따라 "HelloWorldBot"을 생성합니다.
+
 
 
 ## Reference
