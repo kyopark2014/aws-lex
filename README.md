@@ -2,7 +2,8 @@
 
 Amazon Lex는 애플리케이션에 대화형 인터페이스를 구축하는 서비스로서, 애플리케이션에서 대화형 인터페이스를 설계, 구축, 테스트, 배포하기 위해 고급 자연어 모델을 사용하는 완전관리형 인공 지능(AI) 서비스입니다. Amazon Lex 챗봇은 연속적인 대화를 주고받을 수 있는 기능을 제공하고, 파악되면 해당 의도를 이행하는 데 필요한 정보가 사용자에게 표시됩니다. 아래는 여기서 구현하는 Lex를 이용한 챗봇의 Architecture입니다.
 
-![image](https://user-images.githubusercontent.com/52392004/223068742-b90a6907-4313-4142-b343-22915621023f.png)
+
+![image](https://user-images.githubusercontent.com/52392004/223072303-11c6fa1d-00d6-486a-99fb-234a1e07eefa.png)
 
 
 ## Basic
