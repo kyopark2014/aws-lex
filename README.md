@@ -19,35 +19,23 @@
 
 ## Operation
 
-### 메시지 전송
+### LEX API
 
 사용자의 입력은 RecognizeText을 통해 Lex V2로 전송합니다.
 
 [RecognizeText](https://docs.aws.amazon.com/lexv2/latest/APIReference/API_runtime_RecognizeText.html)
 
-
-- botAliasId: The alias identifier in use for the bot that processes the request, Required: Yes
+이때 필요한 매개변수는 아래와 같습니다. 
 
 - botId: The identifier of the bot that processes the request, Length Constraints: Fixed length of 10, Pattern: ^[0-9a-zA-Z]+$
 
-- localeId: [Languages and locales supported by Amazon Lex V2](https://docs.aws.amazon.com/lexv2/latest/dg/how-languages.html)와 같이 "en_US"은 English (US)이고, ko_KR은 "Korean (Korea)"입니다.
+- botAliasId: The alias identifier in use for the bot that processes the request
 
+- localeId: [Languages and locales supported by Amazon Lex V2](https://docs.aws.amazon.com/lexv2/latest/dg/how-languages.html)와 같이 "en_US"은 English (US)이고, ko_KR은 "Korean (Korea)"입니다.
 
 - sessionId: The identifier of the user session that is having the conversation, Length Constraints: Minimum length of 2. Maximum length of 100, Pattern: [0-9a-zA-Z._:-]+
 
-
-### AWS integrations
-
-[integrations](https://github.com/kyopark2014/aws-lex/blob/main/integrations.md)와 같이 다른 메신저와 연동할 수 있습니다. 
-
-
-### Bot 동작
-
-[GetSession](https://docs.aws.amazon.com/lex/latest/dg/API_runtime_GetSession.html)
-
-[Bot Script](https://github.com/kyopark2014/aws-lex/blob/main/bot-script.md)관련 상세 동작에 대해 설명합니다. (작성중)
-
-## Deployment
+### Deployment
 
 [Hello World 봇 만들기](https://github.com/aws-samples/aws-ai-ml-workshop-kr/blob/master/aiservices/lex-korean-workshop/HelloWorldBot.md)에 따라 "HelloWorldBot"을 생성합니다.
 
@@ -86,6 +74,21 @@ cdk deploy"
 
 이후 브라우저에서 WebUrl을 이용해 접속합니다. 
 
+이때의 실행 결과는 아래와 같습니다.
+
+![image](https://user-images.githubusercontent.com/52392004/223067007-a74b18d3-9ba9-4280-99e0-b669f309b172.png)
+
+
+
+## AWS integrations
+
+[integrations](https://github.com/kyopark2014/aws-lex/blob/main/integrations.md)와 같이 다른 메신저와 연동할 수 있습니다. 
+
+## Bot 동작
+
+[GetSession](https://docs.aws.amazon.com/lex/latest/dg/API_runtime_GetSession.html)
+
+[Bot Script](https://github.com/kyopark2014/aws-lex/blob/main/bot-script.md)관련 상세 동작에 대해 설명합니다. (작성중)
 
 ## Reference
 
