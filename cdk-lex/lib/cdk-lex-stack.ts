@@ -63,17 +63,17 @@ export class CdkLexStack extends cdk.Stack {
     });
 
     // Lambda for lex
-    const lambdaLex = new lambda.Function(this, 'lambda-lex', {
+    const lambdaLex = new lambda.Function(this, 'lambda-function-lex', {
       description: 'lambda for chat',
-      functionName: 'lambda-lex',
+      functionName: 'lambda-function-lex',
       handler: 'index.handler',
       runtime: lambda.Runtime.NODEJS_18_X,
       code: lambda.Code.fromAsset(path.join(__dirname, '../../lambda-lex')),
       timeout: cdk.Duration.seconds(120),
       environment: {
+        botId: "BSZQXD0ABN",
         botAliasId: "TSTALIASID",
-        botId: "OLL2GYMJSN",
-        localeId: "en_US",
+        localeId: "ko_KR", // en_US
         sessionId: "mysession-01",
       }
     });     
@@ -143,7 +143,7 @@ export class CdkLexStack extends cdk.Stack {
       description: 'The url of API Gateway',
     }); 
     new cdk.CfnOutput(this, 'curlUrl-lex', {
-      value: "curl -X POST "+api.url+'lex -H "Content-Type: application/json" -d \'{"text":"I want to make a payment"}\'',
+      value: "curl -X POST "+api.url+'lex -H "Content-Type: application/json" -d \'{"text":"안녕"}\'',
       description: 'Curl commend of API Gateway',
     }); 
 
@@ -160,7 +160,7 @@ export class CdkLexStack extends cdk.Stack {
     });
 
     new cdk.CfnOutput(this, 'UpdateCommend', {
-      value: 'aws s3 cp ../html/lex.html '+'s3://'+s3Bucket.bucketName,
+      value: 'aws s3 cp ../html/lex.js '+'s3://'+s3Bucket.bucketName,
       description: 'The url of web file upload',
     });
   }
