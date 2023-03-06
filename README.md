@@ -30,7 +30,8 @@
 
 - botId: The identifier of the bot that processes the request, Length Constraints: Fixed length of 10, Pattern: ^[0-9a-zA-Z]+$
 
-- localeId: The locale where the session is in use, Length Constraints: Minimum length of 1.
+- localeId: [Languages and locales supported by Amazon Lex V2](https://docs.aws.amazon.com/lexv2/latest/dg/how-languages.html)와 같이 "en_US"은 English (US)이고, ko_KR은 "Korean (Korea)"입니다.
+
 
 - sessionId: The identifier of the user session that is having the conversation, Length Constraints: Minimum length of 2. Maximum length of 100, Pattern: [0-9a-zA-Z._:-]+
 
